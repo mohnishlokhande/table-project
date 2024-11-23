@@ -1,0 +1,21 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.tableRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  border: 1px solid #eaeaea;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+/* const timer = setTimeout(() => {
+    setDebouncedValue(search);
+  }, 1000);
+  return () => {
+    clearTimeout(timer);
+  }; */
